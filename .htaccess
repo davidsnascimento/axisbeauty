@@ -1,0 +1,17 @@
+Options -Indexes
+
+<IfModule mod_headers.c>
+  Header set X-Frame-Options "DENY"
+  Header set X-Content-Type-Options "nosniff"
+  Header set Referrer-Policy "strict-origin-when-cross-origin"
+</IfModule>
+
+RedirectMatch 403 ^/(config|src|storage|database)/
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  # If requesting /axisbeauty/ (directory), serve root index.php
+  DirectoryIndex index.php
+</IfModule>
+
+AddDefaultCharset utf-8
