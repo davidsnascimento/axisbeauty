@@ -1,20 +1,20 @@
-# Arquitetura
+# 02 - Arquitetura Técnica
 
 ## Stack
 - PHP 8+
 - PDO
-- MariaDB/MySQL
+- MariaDB / MySQL
+- Estrutura modular
 
-## Estrutura
-- public/
-- src/
-- config/
-- database/
-- docs/
+## Estrutura de Pastas
+config/
+database/
+docs/
+public/
+src/
 
-## Ordem de construção
-1. Autenticação
-2. RBAC
-3. Conta SaaS
-4. Salões
-5. Agenda
+## Conceitos Fundamentais
+- Multi-tenant via conta_id
+- RBAC (Role Based Access Control)
+- Segurança por middleware
+- Autenticação enterprise

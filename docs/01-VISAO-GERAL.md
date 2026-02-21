@@ -1,14 +1,16 @@
-# Visão Geral
+# 01 - Visão Geral
 
-AxisBeauty é um SaaS de gestão para salões de beleza.
+## Nome
+AxisBeauty – Gestão Inteligente para Salões
 
-## Objetivos
-- Plano Free permanente
-- Estrutura escalável
-- Segurança nível empresa
-- Código preparado para futura venda
+## Modelo de Negócio
+SaaS (Software as a Service)
 
-## Público
-- Salões iniciantes
-- Salões em crescimento
-- Franquias (futuro)
+## Público-Alvo
+- Salões femininos
+- Barbearias
+- Clínicas de estética
+- Espaços de beleza
+
+## Estratégia
+Plano FREE permanente e escalável, com upgrade opcional.
